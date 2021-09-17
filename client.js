@@ -1,6 +1,6 @@
 var pc = null;
 
-const socket = window.io("http://192.168.0.107:8000");
+const socket = window.io("http://20.88.185.127:8000");
 
 function negotiate() {
   pc.addTransceiver("video", { direction: "recvonly" });
